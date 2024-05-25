@@ -13,3 +13,7 @@
 
 # Create database
 dotnet ef database update namemigration or make changes on API/Program.cs and then inside app run dotnet run will create database
+
+
+# Seed Database
+the entity framework have to be the same version as the net core version. that's why been updated the versions.
