@@ -1,4 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Persistence;
 
 namespace API
 {
@@ -16,6 +18,9 @@ namespace API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
+            });
+            services.AddDbContext<DataContext>(opt => {
+               opt.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
             
         }
