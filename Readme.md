@@ -1,3 +1,4 @@
+
 - dotnet new sln
 - dotnet new webapi -n API
 - dotnet new classlib -n Application
@@ -17,3 +18,6 @@ dotnet ef database update namemigration or make changes on API/Program.cs and th
 
 # Seed Database
 the entity framework have to be the same version as the net core version. that's why been updated the versions.
+
+# help 
+dotnet new -l
