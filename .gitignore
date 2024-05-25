@@ -4,7 +4,9 @@
 ## Get latest from `dotnet new gitignore`
 
 *.db
-
+# files create when runs dotnet watch run for the sqlite database
+*.db-shm
+*.db-wal
 # dotenv files
 .env
 
