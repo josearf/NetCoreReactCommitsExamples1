@@ -7,6 +7,8 @@ npm install uuid
 # because uuid don't have typescript definitions
 npm i --save-dev @types/uuid
 
+# Context
+npm install mobx mobx-react-lit
 
 # Help
 - React developer tools install in chrome
