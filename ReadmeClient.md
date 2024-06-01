@@ -10,5 +10,9 @@ npm i --save-dev @types/uuid
 # Context
 npm install mobx mobx-react-lit
 
+# Router
+npm install react-router-dom @types/react-router-dom
+
+
 # Help
 - React developer tools install in chrome
